@@ -36,7 +36,7 @@ const server = http.createServer((req,res) => {
     }
 });
 //127.0.0.1
-server.listen(8000,"127.0.0.1",()=>
-{
-    console.log("Listening on the port no 8000");
-})
+// server.listen(8000,"127.0.0.1",()=>
+// {
+//     console.log("Listening on the port no 8000");
+// })
