@@ -7,10 +7,10 @@ const staticPath = path.join(__dirname,'../public');
 // console.log(__filename);
 // console.log(path.join(__dirname,'../public'));
 
-// to set view engine
+// To set view engine - important for dynamic content on website
 app.set("view engine","hbs");
 
-//builtin middleware
+//builtin middleware (for static website)
 // app.use(express.static(staticPath));
 
 app.get("", (req,res) => {
